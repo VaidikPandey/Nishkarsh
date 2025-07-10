@@ -1,37 +1,34 @@
-# Dexy
-Dexy — Where PDFs Talk Back.
+# 🧠 Nishkarsh
 
-# 🚀 Chat with Your PDFs Using AI
+**Nishkarsh** (निष्कर्ष) means *conclusion* or *essence* — and that’s exactly what this app gives you.  
+Upload documents, notes, PDFs, or raw text — and get clear, smart summaries in seconds.
 
-**Dexy** is a full-stack AI-powered SaaS platform that lets users **upload PDFs and chat with them instantly**. Built using modern technologies like **Next.js 13 App Router**, **TypeScript**, **OpenAI**, **Stripe**, **Drizzle ORM**, and **Tailwind CSS**, Dexy makes document comprehension faster, smarter, and more conversational.
-
-## 🔥 Features
-
-- 📄 Upload and manage PDF files
-- 🤖 Ask questions and chat with your documents using OpenAI embeddings
-- 🧠 Embedding-based semantic search via **Pinecone**
-- 💬 Real-time streaming chat interface
-- 🔐 User authentication (Clerk)
-- ☁️ File storage using AWS S3
-- 💳 Subscription payments with Stripe
-- 🧰 Tech stack: Next.js 13, Drizzle ORM, TypeScript, Tailwind, PostgreSQL (Neon)
+Powered by modern LLMs like OpenAI and Gemini, Nishkarsh is built for anyone who values clarity over clutter.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-| Tech        | Description                          |
-|-------------|--------------------------------------|
-| Next.js 13  | App router + SSR                     |
-| TypeScript  | Strict typing                        |
-| Tailwind CSS| Utility-first styling                |
-| Drizzle ORM | Type-safe database access            |
-| PostgreSQL  | Hosted on Neon                       |
-| Pinecone    | Vector database for semantic search  |
-| OpenAI      | Embeddings + GPT chat completion     |
-| AWS S3      | File uploads                         |
-| Clerk       | Authentication                       |
-| Stripe      | Subscription + payments              |
+- 📄 Upload PDFs or paste raw content  
+- 🤖 AI-generated summaries using OpenAI / Gemini  
+- 🧾 Document history with full CRUD  
+- 🔐 Auth with Clerk  
+- 💳 Stripe-powered subscriptions for premium access  
+- 🧘‍♀️ Simple, clean UI with Tailwind  
+- 📱 Responsive by default (mobile friendly)  
 
 ---
 
+## 🛠 Tech Stack
+
+| Layer       | Tech                                       |
+|-------------|--------------------------------------------|
+| Frontend    | Next.js 15 (App Router), Tailwind CSS      |
+| Backend     | Node.js (API Routes), Prisma + PostgreSQL  |
+| Auth        | Clerk                                      |
+| Payments    | Stripe                                     |
+| AI Engine   | OpenAI (GPT-4 / 3.5) or Gemini Pro          |
+| Uploads     | UploadThing                                |
+| Deploy      | Vercel                                     |
+
+---
