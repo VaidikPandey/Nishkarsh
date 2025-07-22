@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3 as FontSans } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/ui/common/header";
 
 const fontsans = FontSans({
   variable: "--fontsans",
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${fontsans.variable} font-sans antialiased`}>
+        <Header />
         {children}
       </body>
     </html>
